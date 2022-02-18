@@ -1,0 +1,23 @@
+$ git --version
+Memeriksa versi git
+
+$ git --help
+Membuka dokumentasi/panduan git
+
+$ git config user.name
+Melihat informasi username
+
+$ git config user.email
+Melihat informasi email
+
+$ git config --global user.name rochafialvin
+Melakukan konfigurasi username
+
+$ git config --global user.email rochafi.dev@gmail.com
+Melakukan konfigurasi email
+
+$ git init
+Melakukan inisialisasi repository git
+
+$ git status
+Melihat status project saat ini

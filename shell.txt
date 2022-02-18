@@ -1,0 +1,32 @@
+$ ls
+Menampilkan daftar isi folder
+
+$ ls -l
+Menampilkan folder dalam bentuk list dengan informasi detail
+
+$ ls -a
+Menampilkan seluruh isi folder (termasuk yang di hide)
+
+$ ls -la
+Menampilkan sluruh isi folder dalam bentuk list dengan informasi detail
+
+$ mkdir test123
+Membuat folder dengan nama test123
+
+$ rmdir test123
+Menghapus folder test123 (kosong)
+
+$ touch index.js
+Membuat file index.js
+
+$ rm index.js
+Menghapus file index.js
+
+$ rm -r test123
+Menghapus folder test123 (memiliki isi)
+
+$ cd test123
+Pindah directory (masuk) ke test123
+
+$ cd .. atau cd ../
+Keluar satu level folder (folder saat ini)
