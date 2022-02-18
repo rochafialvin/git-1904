@@ -1,1 +1,1 @@
-console.log("Create feature register");
+console.log("Update feature register");
