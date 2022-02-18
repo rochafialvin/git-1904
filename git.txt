@@ -66,3 +66,9 @@ Pindah ke branch PWD-14
 
 $ git checkout -b PWD-15
 Membuat branch baru dan langsung pindah ke branch PWD-15
+
+$ git merge PWD-1
+Melakukan merge branch saat ini dengan branch PWD-1
+
+$ git merge --squash PWD-2 --> git commit -m "Create feature : top-up"
+File yang berada pada branch PWD-2 akan di merge ke branch master, lalu di master akan dibuat satu commit baru
