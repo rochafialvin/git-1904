@@ -54,3 +54,15 @@ Menghapus commit dengan id 363082f. Kodenya masih sama / tidak terhapus / tidak 
 
 $ git reset --hard 363082f
 Menghapus commit dengan id 363082f. Kodenya akan menghilang / terhapus (Tidak dapat di recover, jangan sekali kali menjalankan ini)
+
+$ git branch
+Melihat list branch
+
+$ git branch PWD-14
+Membuat branch baru bernama PWD-14
+
+$ git checkout PWD-14 or git switch PWD-14
+Pindah ke branch PWD-14
+
+$ git checkout -b PWD-15
+Membuat branch baru dan langsung pindah ke branch PWD-15
