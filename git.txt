@@ -72,3 +72,15 @@ Melakukan merge branch saat ini dengan branch PWD-1
 
 $ git merge --squash PWD-2 --> git commit -m "Create feature : top-up"
 File yang berada pada branch PWD-2 akan di merge ke branch master, lalu di master akan dibuat satu commit baru
+
+$ git remote add <variable> <link>
+$ git remote add origin git@github.com:rochafialvin/git-1904.git
+Membuat variable origin yang berisi link repository github
+
+$ git push <variable> <branch>
+$ git push origin master
+Push update kode terbaru pada branch master
+
+$ git pull <variable> <branch>
+$ git pull origin master
+Download update kode terbaru dari branch master untuk di merge pada branch saat ini kita berada

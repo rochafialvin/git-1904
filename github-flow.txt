@@ -1,0 +1,19 @@
+-- CONFIG SSH
+
+- Check apakah sudah memiliki SSH key di laptop
+- Create SSH key jika belum ada
+- Letakkan Key public di github, untuk caranya ada di channel agile (slack)
+
+-- WORKING
+
+- Clone project (sekali)
+
+- Create branch for working
+- Kerjakan task
+- Pull branch master
+- Selesaikan konflik (bentrok) jika ada
+- Push branch PWD-3 (tempat kita bekerja)
+- Create pull request, minta rekan untuk review kode kita
+- Kalau misalnya ada perubahan, dikerjakan, push lagi
+- Menunggu review dari rekan ....
+- Kalau sudah di approve --> merge squash
