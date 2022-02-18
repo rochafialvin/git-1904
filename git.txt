@@ -39,3 +39,13 @@ Melihat daftar commit dengan informasi lengkap
 
 $ git log --oneline
 Melihat daftar commit dengan informasi singkat
+
+$ git checkout
+$ git reset
+$ git revert
+
+$ git reset 363082f
+Menghapus commit dengan id 363082f. Kodenya masih sama / tidak terhapus / tidak hilang
+
+$ git reset --hard 363082f
+Menghapus commit dengan id 363082f. Kodenya akan menghilang / terhapus (Tidak dapat di recover, jangan sekali kali menjalankan ini)
