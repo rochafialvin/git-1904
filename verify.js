@@ -1,1 +1,1 @@
-console.log("Verify account");
+console.log("Update Verify account");
