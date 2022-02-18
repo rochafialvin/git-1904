@@ -40,9 +40,14 @@ Melihat daftar commit dengan informasi lengkap
 $ git log --oneline
 Melihat daftar commit dengan informasi singkat
 
-$ git checkout
-$ git reset
-$ git revert
+$ git checkout 363082f
+Melihat kondisi project pada commit 363082f (masa lalu)
+
+$ git checkout master
+Melihat kondisi project pada commit terakhir di branch master (masa sekarang)
+
+$ git revert 363082f
+Menf-cancel commit 363082f. Commitnya masih ada, namun tidak berlaku segala bentuk perubahan yang terjadi pada commit tersebut
 
 $ git reset 363082f
 Menghapus commit dengan id 363082f. Kodenya masih sama / tidak terhapus / tidak hilang
