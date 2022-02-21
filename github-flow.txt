@@ -10,8 +10,9 @@
 
 - Create branch for working
 - Kerjakan task
+- Buat commit
 - Pull branch master
-- Selesaikan konflik (bentrok) jika ada
+- Selesaikan konflik (bentrok) jika ada --> Lakukan git commit
 - Push branch PWD-3 (tempat kita bekerja)
 - Create pull request, minta rekan untuk review kode kita
 - Kalau misalnya ada perubahan, dikerjakan, push lagi
